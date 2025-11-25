@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MindCare - Self Assessment</title>
+    <link rel="stylesheet" href="mincare.css">
+</head>
+<body>
+
+    <h1>MindCare - Mental Health Self Assessment</h1>
+
+    <div class="container">
+        <p>Answer the following questions honestly:</p>
+
+        <label>1. Are you feeling stressed often?</label>
+        <select id="q1">
+            <option value="0">No</option>
+            <option value="1">Sometimes</option>
+            <option value="2">Yes</option>
+        </select>
+
+        <label>2. Do you feel low energy or sad?</label>
+        <select id="q2">
+            <option value="0">No</option>
+            <option value="1">Sometimes</option>
+            <option value="2">Yes</option>
+        </select>
+
+        <label>3. Are you having trouble sleeping?</label>
+        <select id="q3">
+            <option value="0">No</option>
+            <option value="1">Sometimes</option>
+            <option value="2">Yes</option>
+        </select>
+
+        <button onclick="calculate()">Check Result</button>
+
+        <h2 id="result"></h2>
+    </div>
+
+<script src="mindcare.js"></script>
+</body>
+</html>
